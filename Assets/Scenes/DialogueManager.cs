@@ -13,8 +13,8 @@ public class DialogueManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    public void StartDialogue(Dialogue dialogue)
     {
-        
+        Debug.Log("Time to talk to" + dialogue.name);
     }
 }
