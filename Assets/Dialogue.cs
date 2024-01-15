@@ -21,16 +21,35 @@ public class Dialogue : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            if (textComponent.text == lines[index])
+        if (index == lines.Length - 1)
+        { 
+                if (Input.GetKey(KeyCode.Y))
             {
-                NextLine();
+                print("Ýes");
+                gameObject.SetActive(false);
             }
-            else
+
+            if (Input.GetKey(KeyCode.N))
             {
-                StopAllCoroutines();
-                textComponent.text = lines[index];
+                print("No");
+                gameObject.SetActive(false);
+            }
+
+
+
+        }
+        else {
+            if (Input.GetMouseButtonDown(0))
+            {
+                if (textComponent.text == lines[index])
+                {
+                    NextLine();
+                }
+                else
+                {
+                    StopAllCoroutines();
+                    textComponent.text = lines[index];
+                }
             }
         }
     }
@@ -60,7 +79,7 @@ public class Dialogue : MonoBehaviour
         }
         else
         {
-            gameObject.SetActive(false);
+            
         }
     }
 }
