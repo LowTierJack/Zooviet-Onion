@@ -26,6 +26,7 @@ public class Dialogue : MonoBehaviour
                 if (Input.GetKey(KeyCode.Y))
             {
                 print("Ýes");
+                
                 gameObject.SetActive(false);
             }
 
