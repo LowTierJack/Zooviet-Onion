@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 93dd93c0c2894cb4f84dc938d4abb3b1
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - SR: {instanceID: 0}
+  - Gojo1: {fileID: 21300000, guid: 798d22760805f834098168f69c9823c5, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
