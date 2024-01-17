@@ -411,6 +411,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1051346913}
   - component: {fileID: 1051346912}
+  - component: {fileID: 1051346914}
   m_Layer: 3
   m_Name: window
   m_TagString: Untagged
@@ -459,7 +460,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 63b8f9aeb7113944597993b3801b87bb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ddf653b63d0cd724e8a28a35b343f729, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -485,6 +486,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1051346914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1051346911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93dd93c0c2894cb4f84dc938d4abb3b1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SR: {fileID: 1051346912}
+  Gojo1: {fileID: 21300000, guid: 4d3413a4dcc113d4bb9f366989f0e50b, type: 3}
+  Gojo2: {fileID: 21300000, guid: ddf653b63d0cd724e8a28a35b343f729, type: 3}
+  Gojo3: {fileID: 21300000, guid: fe058ac7f2a0aae46a2e36d87f1a1dda, type: 3}
 --- !u!1 &1103658393
 GameObject:
   m_ObjectHideFlags: 0

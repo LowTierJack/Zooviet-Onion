@@ -8,6 +8,7 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
+    public AudioSource talksound;
 
     private int index;
 
@@ -26,14 +27,16 @@ public class Dialogue : MonoBehaviour
                 if (Input.GetKey(KeyCode.Y))
             {
                 print("Ýes");
-                
+                GameObject.Find("window").GetComponent<Stats>().statHappiness += 40;
                 gameObject.SetActive(false);
             }
 
             if (Input.GetKey(KeyCode.N))
             {
                 print("No");
+                GameObject.Find("window").GetComponent<Stats>().statHappiness -= 40;
                 gameObject.SetActive(false);
+
             }
 
 
@@ -66,6 +69,7 @@ public class Dialogue : MonoBehaviour
         foreach (char c in lines[index].ToCharArray())
         {
             textComponent.text += c;
+            talksound.Play();
             yield return new WaitForSeconds(textSpeed);
         }
     }
