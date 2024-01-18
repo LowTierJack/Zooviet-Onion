@@ -498,6 +498,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93dd93c0c2894cb4f84dc938d4abb3b1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  statHappiness: 0
+  statMoney: 0
+  statmain: 0
   SR: {fileID: 1051346912}
   Gojo1: {fileID: 21300000, guid: 4d3413a4dcc113d4bb9f366989f0e50b, type: 3}
   Gojo2: {fileID: 21300000, guid: ddf653b63d0cd724e8a28a35b343f729, type: 3}
@@ -557,7 +560,8 @@ MonoBehaviour:
   lines:
   - Leader, the people are advocating for free public transport for children.
   - Should we listen? It might cost us some money. (Y/N)
-  textSpeed: 0
+  textSpeed: 0.1
+  talksound: {fileID: 0}
 --- !u!114 &1103658396
 MonoBehaviour:
   m_ObjectHideFlags: 0

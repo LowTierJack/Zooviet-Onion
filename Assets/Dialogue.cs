@@ -69,7 +69,7 @@ public class Dialogue : MonoBehaviour
         foreach (char c in lines[index].ToCharArray())
         {
             textComponent.text += c;
-            talksound.Play();
+            
             yield return new WaitForSeconds(textSpeed);
         }
     }
