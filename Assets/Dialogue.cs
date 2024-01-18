@@ -9,6 +9,9 @@ public class Dialogue : MonoBehaviour
     public string[] lines;
     public float textSpeed;
     public AudioSource talksound;
+    public GameObject dialogue1, dialogue2, dialogue3;
+
+    int whattoSpawn;
 
     private int index;
 
@@ -26,14 +29,42 @@ public class Dialogue : MonoBehaviour
         { 
                 if (Input.GetKey(KeyCode.Y))
             {
+                int whattoSpawn = Random.Range(1, 4);
                 print("Ýes");
+                switch (whattoSpawn)
+                {
+                    case 1:
+                        Instantiate(dialogue1, transform.position, Quaternion.identity);
+                        break;
+                    case 2:
+                        Instantiate(dialogue2, transform.position, Quaternion.identity);
+                        break;
+                    case 3:
+                        Instantiate(dialogue3, transform.position, Quaternion.identity);
+                        break;
+
+                }
                 GameObject.Find("window").GetComponent<Stats>().statHappiness += 40;
                 gameObject.SetActive(false);
             }
 
             if (Input.GetKey(KeyCode.N))
             {
+                int whattoSpawn = Random.Range(1, 4);
                 print("No");
+                switch (whattoSpawn)
+                {
+                    case 1:
+                        Instantiate(dialogue1, transform.position, Quaternion.identity);
+                        break;
+                    case 2:
+                        Instantiate(dialogue2, transform.position, Quaternion.identity);
+                        break;
+                    case 3:
+                        Instantiate(dialogue3, transform.position, Quaternion.identity);
+                        break;
+
+                }
                 GameObject.Find("window").GetComponent<Stats>().statHappiness -= 40;
                 gameObject.SetActive(false);
 
