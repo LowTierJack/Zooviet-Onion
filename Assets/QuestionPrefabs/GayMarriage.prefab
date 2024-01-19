@@ -234,6 +234,10 @@ MonoBehaviour:
   dialogue1: {fileID: 3540126655034435144, guid: d962d49dfb0596a419a043ceae0fb62d, type: 3}
   dialogue2: {fileID: 3540126655034435144, guid: 9f1a2bda82fbb14439f3c5f681f2d1b6, type: 3}
   dialogue3: {fileID: 3540126655034435144}
+  dialogue4: {fileID: 3540126655034435144, guid: 2a0d0e9ab88d3e44394feb794a4b65b3, type: 3}
+  dialogue5: {fileID: 3540126655034435144, guid: e4d2a5edf4080974bb7e76e24bc5daba, type: 3}
+  dialogue6: {fileID: 3540126655034435144, guid: 130fcdbc7bf4c1f4097c5868a548689e, type: 3}
+  dialogue7: {fileID: 3540126655034435144, guid: 9978f2f9b8fd62347a57312d3cfdfb21, type: 3}
 --- !u!1 &3540126655034435144
 GameObject:
   m_ObjectHideFlags: 0
@@ -408,9 +412,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -564992559
-  m_SortingLayer: 2
-  m_SortingOrder: 0
+  m_SortingLayerID: -1921208497
+  m_SortingLayer: 3
+  m_SortingOrder: -1
   m_Sprite: {fileID: 21300000, guid: 9258b26098bae594283103abb991088f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

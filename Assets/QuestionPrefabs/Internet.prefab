@@ -235,6 +235,10 @@ MonoBehaviour:
   dialogue1: {fileID: 3540126655034435144}
   dialogue2: {fileID: 3540126655034435144, guid: 6daf5226410907446af9226a3e90440f, type: 3}
   dialogue3: {fileID: 3540126655034435144, guid: d962d49dfb0596a419a043ceae0fb62d, type: 3}
+  dialogue4: {fileID: 3540126655034435144, guid: 9978f2f9b8fd62347a57312d3cfdfb21, type: 3}
+  dialogue5: {fileID: 3540126655034435144, guid: e4d2a5edf4080974bb7e76e24bc5daba, type: 3}
+  dialogue6: {fileID: 3540126655034435144, guid: 2a0d0e9ab88d3e44394feb794a4b65b3, type: 3}
+  dialogue7: {fileID: 3540126655034435144, guid: 130fcdbc7bf4c1f4097c5868a548689e, type: 3}
 --- !u!1 &3540126655034435144
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,7 +11,7 @@ public class Dialogue : MonoBehaviour
     public int happyMod;
     public int moneyMod;
     
-    public GameObject dialogue1, dialogue2, dialogue3;
+    public GameObject dialogue1, dialogue2, dialogue3, dialogue4, dialogue5, dialogue6, dialogue7;
 
     int whattoSpawn;
 
@@ -44,6 +44,18 @@ public class Dialogue : MonoBehaviour
                     case 3:
                         Instantiate(dialogue3, transform.position, Quaternion.identity);
                         break;
+                    case 4:
+                        Instantiate(dialogue4, transform.position, Quaternion.identity);
+                        break;
+                    case 5:
+                        Instantiate(dialogue5, transform.position, Quaternion.identity);
+                        break;
+                    case 6:
+                        Instantiate(dialogue6, transform.position, Quaternion.identity);
+                        break;
+                    case 7:
+                        Instantiate(dialogue7, transform.position, Quaternion.identity);
+                        break;
 
                 }
                 GameObject.Find("window").GetComponent<Stats>().statHappiness += happyMod;
@@ -65,6 +77,18 @@ public class Dialogue : MonoBehaviour
                         break;
                     case 3:
                         Instantiate(dialogue3, transform.position, Quaternion.identity);
+                        break;
+                    case 4:
+                        Instantiate(dialogue4, transform.position, Quaternion.identity);
+                        break;
+                    case 5:
+                        Instantiate(dialogue5, transform.position, Quaternion.identity);
+                        break;
+                    case 6:
+                        Instantiate(dialogue6, transform.position, Quaternion.identity);
+                        break;
+                    case 7:
+                        Instantiate(dialogue7, transform.position, Quaternion.identity);
                         break;
 
                 }

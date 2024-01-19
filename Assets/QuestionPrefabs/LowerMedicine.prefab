@@ -225,18 +225,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 7191237700293784250}
   lines:
-  - Leader, we've been considering putting more of our budget into the education
-    system.
-  - What do you think? It'll cost a bit, but will surely make people happy. (Y/N)
+  - Leader, theres been a surge of sickness in the working class.
+  - Should we make medicine more afforadble? We'd lose profits, but perhaps curing
+    the poor is more important? (Y/N)
   textSpeed: 0.05
-  happyMod: 25
-  moneyMod: -25
-  dialogue1: {fileID: 3540126655034435144, guid: 6daf5226410907446af9226a3e90440f, type: 3}
-  dialogue2: {fileID: 3540126655034435144, guid: 9f1a2bda82fbb14439f3c5f681f2d1b6, type: 3}
-  dialogue3: {fileID: 3540126655034435144}
-  dialogue4: {fileID: 3540126655034435144, guid: 9978f2f9b8fd62347a57312d3cfdfb21, type: 3}
+  happyMod: 20
+  moneyMod: -30
+  dialogue1: {fileID: 3540126655034435144}
+  dialogue2: {fileID: 3540126655034435144, guid: 6daf5226410907446af9226a3e90440f, type: 3}
+  dialogue3: {fileID: 3540126655034435144, guid: d962d49dfb0596a419a043ceae0fb62d, type: 3}
+  dialogue4: {fileID: 3540126655034435144, guid: e4d2a5edf4080974bb7e76e24bc5daba, type: 3}
   dialogue5: {fileID: 3540126655034435144, guid: 2a0d0e9ab88d3e44394feb794a4b65b3, type: 3}
-  dialogue6: {fileID: 3540126655034435144, guid: e4d2a5edf4080974bb7e76e24bc5daba, type: 3}
+  dialogue6: {fileID: 3540126655034435144, guid: 9f1a2bda82fbb14439f3c5f681f2d1b6, type: 3}
   dialogue7: {fileID: 3540126655034435144, guid: 130fcdbc7bf4c1f4097c5868a548689e, type: 3}
 --- !u!1 &3540126655034435144
 GameObject:
@@ -251,7 +251,7 @@ GameObject:
   - component: {fileID: 431300290637886206}
   - component: {fileID: 7324220742565633745}
   m_Layer: 0
-  m_Name: Education
+  m_Name: LowerMedicine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
