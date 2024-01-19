@@ -41,6 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: New Layer 3
+    uniqueID: 3521377343
+    locked: 0
   - name: BG
     uniqueID: 3729974737
     locked: 0
