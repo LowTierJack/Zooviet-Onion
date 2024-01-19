@@ -31,7 +31,7 @@ public class Dialogue : MonoBehaviour
         { 
                 if (Input.GetKey(KeyCode.Y))
             {
-                int whattoSpawn = Random.Range(1, 4);
+                int whattoSpawn = Random.Range(1, 8);
                 print("Ýes");
                 switch (whattoSpawn)
                 {
