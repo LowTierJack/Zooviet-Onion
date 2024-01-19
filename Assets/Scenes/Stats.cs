@@ -37,6 +37,9 @@ public class Stats : MonoBehaviour
         {
             SR.sprite = Gojo3;
         }
+
+        print("HAPPY " + statHappiness);
+        print("MONEY " + statMoney);
        
      
 

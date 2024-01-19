@@ -8,7 +8,9 @@ public class Dialogue : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
-    public AudioSource talksound;
+    public int happyMod;
+    public int moneyMod;
+    
     public GameObject dialogue1, dialogue2, dialogue3;
 
     int whattoSpawn;
@@ -44,7 +46,8 @@ public class Dialogue : MonoBehaviour
                         break;
 
                 }
-                GameObject.Find("window").GetComponent<Stats>().statHappiness += 40;
+                GameObject.Find("window").GetComponent<Stats>().statHappiness += happyMod;
+                GameObject.Find("window").GetComponent<Stats>().statMoney += moneyMod;
                 gameObject.SetActive(false);
             }
 
@@ -65,7 +68,8 @@ public class Dialogue : MonoBehaviour
                         break;
 
                 }
-                GameObject.Find("window").GetComponent<Stats>().statHappiness -= 40;
+                GameObject.Find("window").GetComponent<Stats>().statHappiness -= happyMod;
+                GameObject.Find("window").GetComponent<Stats>().statMoney -= moneyMod;
                 gameObject.SetActive(false);
 
             }
