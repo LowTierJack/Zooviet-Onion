@@ -1,6 +1,10 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
 --- !u!1 &1625171381654321371
+=======
+--- !u!1 &5997727795135198135
+>>>>>>> Stashed changes
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,6 +12,7 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< Updated upstream
   - component: {fileID: 4455431709823460473}
   - component: {fileID: 4132759983274049694}
   - component: {fileID: 7191237700293784250}
@@ -250,6 +255,10 @@ GameObject:
   - component: {fileID: 5349494107377196517}
   - component: {fileID: 431300290637886206}
   - component: {fileID: 7324220742565633745}
+=======
+  - component: {fileID: 8689939680520730926}
+  - component: {fileID: 7833550655227133}
+>>>>>>> Stashed changes
   m_Layer: 0
   m_Name: GayMarriage
   m_TagString: Untagged
@@ -257,12 +266,18 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< Updated upstream
 --- !u!224 &4629532666039243519
 RectTransform:
+=======
+--- !u!4 &8689939680520730926
+Transform:
+>>>>>>> Stashed changes
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 3540126655034435144}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -303,11 +318,24 @@ Canvas:
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!114 &431300290637886206
+=======
+  m_GameObject: {fileID: 5997727795135198135}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7833550655227133
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
   m_GameObject: {fileID: 3540126655034435144}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -510,3 +538,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+  m_GameObject: {fileID: 5997727795135198135}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd21eeab1e67cf48beb83127437a772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textComponent: {fileID: 0}
+  lines:
+  - Citizens have been expressing their desire for gay marriage to be legal.
+  - What do you think? It would make many people happy.
+  textSpeed: 0
+  talksound: {fileID: 0}
+>>>>>>> Stashed changes
