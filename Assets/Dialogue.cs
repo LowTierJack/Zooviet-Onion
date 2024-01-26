@@ -5,6 +5,8 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
+
+    // kod gjord av jack
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
