@@ -5,13 +5,8 @@ using TMPro;
 
 public class Dialogue : MonoBehaviour
 {
-<<<<<<< Updated upstream
 
     // kod gjord av jack
-=======
-    
-    //kod av jack (följde en tutorial)
->>>>>>> Stashed changes
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
