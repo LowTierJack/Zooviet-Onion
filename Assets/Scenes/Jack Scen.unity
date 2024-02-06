@@ -315,17 +315,17 @@ MonoBehaviour:
   SRHappy: {fileID: 725264375}
   SRMoney: {fileID: 0}
   SRMain: {fileID: 0}
-  Gojo1: {fileID: 21300000, guid: 669a9ff73d8515049b2323a6d18c49a4, type: 3}
-  Gojo2: {fileID: 21300000, guid: f7555288a698534448caef433a848023, type: 3}
-  Gojo3: {fileID: 21300000, guid: b6ab808bf6d2e524b9ef7afa68130249, type: 3}
-  Gojo4: {fileID: 21300000, guid: 4aca9e7f111fb9c4c9f21e85a7b66aec, type: 3}
-  Gojo5: {fileID: 21300000, guid: caa8d8d44266b2e44a875075795d4391, type: 3}
+  Gojo1: {fileID: 21300000, guid: 3e9390dc4e37ece4eb67cb655d6a63ae, type: 3}
+  Gojo2: {fileID: 21300000, guid: 858724bfa4f3c04479a6173c6aa4909d, type: 3}
+  Gojo3: {fileID: 21300000, guid: 00fbe4ceded235849b069547edbdf7e1, type: 3}
+  Gojo4: {fileID: 21300000, guid: 137406e7573990c4fa0a66bb6d9fa12c, type: 3}
+  Gojo5: {fileID: 21300000, guid: 36cc74b1b3b8ece438c17b9bf8ccf565, type: 3}
   Gojo6: {fileID: 21300000, guid: 125723a14fd419a49ae31fdbc9444477, type: 3}
-  Gojo7: {fileID: 21300000, guid: 36cc74b1b3b8ece438c17b9bf8ccf565, type: 3}
-  Gojo8: {fileID: 21300000, guid: 137406e7573990c4fa0a66bb6d9fa12c, type: 3}
-  Gojo9: {fileID: 21300000, guid: 00fbe4ceded235849b069547edbdf7e1, type: 3}
-  Gojo10: {fileID: 21300000, guid: 858724bfa4f3c04479a6173c6aa4909d, type: 3}
-  Gojo11: {fileID: 21300000, guid: 3e9390dc4e37ece4eb67cb655d6a63ae, type: 3}
+  Gojo7: {fileID: 21300000, guid: caa8d8d44266b2e44a875075795d4391, type: 3}
+  Gojo8: {fileID: 21300000, guid: 4aca9e7f111fb9c4c9f21e85a7b66aec, type: 3}
+  Gojo9: {fileID: 21300000, guid: b6ab808bf6d2e524b9ef7afa68130249, type: 3}
+  Gojo10: {fileID: 21300000, guid: f7555288a698534448caef433a848023, type: 3}
+  Gojo11: {fileID: 21300000, guid: 669a9ff73d8515049b2323a6d18c49a4, type: 3}
   Geto1: {fileID: 0}
   Geto2: {fileID: 0}
   Geto3: {fileID: 0}

@@ -7,11 +7,11 @@ using UnityEngine;
 public class GameOverscript : MonoBehaviour {
 
     public void RestartButton() {
-        SceneManager.LoadScene("Game");
-        
+        SceneManager.LoadScene(sceneName: "Jack scen");
+
     }
     public void ExitButton() {
-        SceneManager.LoadScene("MainMenu");
-        
+        SceneManager.LoadScene(sceneName: "Main menu");
+
     }
 }

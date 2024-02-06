@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Jack Scen.unity
     guid: bd9fb43f3ecd50745a9f1b4930fba87e
+  - enabled: 1
+    path: Assets/bad ending.unity
+    guid: aaf8369428682c94d845a4ae20fa0667
   m_configObjects: {}

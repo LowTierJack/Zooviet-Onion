@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class statstuff : MonoBehaviour
 {
@@ -108,6 +109,7 @@ public class statstuff : MonoBehaviour
         if (GameObject.Find("window").GetComponent<Stats>().statHappiness <= 9 && GameObject.Find("window").GetComponent<Stats>().statHappiness >= 0)
         {
             print("test");
+            SceneManager.LoadScene(sceneName: "bad ending");
             SRHappy.sprite = Gojo1;
         }
 
